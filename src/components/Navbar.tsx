@@ -1,9 +1,7 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 
-type Props = {}
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
     return (
         <div className='navbar'>
             <nav>
