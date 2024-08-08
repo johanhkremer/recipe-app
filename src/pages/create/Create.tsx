@@ -1,5 +1,7 @@
+import { useNavigate } from 'react-router-dom'
+import { useFetch } from '../../hooks/useFetch'
 import './Create.css'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const Create = () => {
 
@@ -7,20 +9,29 @@ const Create = () => {
   const [method, setMethod] = useState<string>('')
   const [cookingTime, setCookingTime] = useState<string>('')
   const [newIngredient, setNewIngrediet] = useState<string>('')
-  const [ingrediants, setIngrediets] = useState<string[]>([])
+  const [ingredients, setIngrediets] = useState<string[]>([])
   const ingredientInput = useRef<HTMLInputElement>(null)
 
-  const handelSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+  const { postData, data, error } = useFetch('http://localhost:3001/recipes', 'POST')
 
-    console.log(title, method, cookingTime, ingrediants)
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (data) {
+      navigate('/home');
+    }
+  }, [data, navigate]);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    postData({ title, ingredients, method, cookingTime: cookingTime + ' minutes' })
   }
 
-  const handelAdd = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleAdd = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault()
     const ing = newIngredient.trim()
 
-    if (ing && !ingrediants.includes(ing)) {
+    if (ing && !ingredients.includes(ing)) {
       setIngrediets(prevIngrediants => [...prevIngrediants, newIngredient])
 
     }
@@ -45,7 +56,7 @@ const Create = () => {
   return (
     <div className='create'>
       <h2 className='page-title'>Add a New Recipe</h2>
-      <form onSubmit={handelSubmit}>
+      <form onSubmit={handleSubmit}>
         <label>
           <span>Recipe title:</span>
           <input
@@ -65,11 +76,11 @@ const Create = () => {
               value={newIngredient}
               ref={ingredientInput}
             />
-            <button className='btn' onClick={handelAdd}>add</button>
+            <button className='btn' onClick={handleAdd}>add</button>
 
           </div>
         </label>
-        <p>Current ingredients: {ingrediants.map(ingredient => <em key={ingredient}>{ingredient}, </em>)}</p>
+        <p>Current ingredients: {ingredients.map(ingredient => <em key={ingredient}>{ingredient}, </em>)}</p>
         <label>
           <span>Recipe method:</span>
           <textarea
@@ -89,6 +100,7 @@ const Create = () => {
           />
         </label>
         <button className='btn'>submit</button>
+        {error && <p className="error">{error}</p>}
       </form>
     </div>
   )
