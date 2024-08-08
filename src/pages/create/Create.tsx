@@ -1,16 +1,33 @@
 import './Create.css'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 
 const Create = () => {
 
   const [title, setTitle] = useState<string>('')
   const [method, setMethod] = useState<string>('')
   const [cookingTime, setCookingTime] = useState<string>('')
+  const [newIngredient, setNewIngrediet] = useState<string>('')
+  const [ingrediants, setIngrediets] = useState<string[]>([])
+  const ingredientInput = useRef<HTMLInputElement>(null)
 
   const handelSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    console.log(title, method, cookingTime)
+    console.log(title, method, cookingTime, ingrediants)
+  }
+
+  const handelAdd = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
+    const ing = newIngredient.trim()
+
+    if (ing && !ingrediants.includes(ing)) {
+      setIngrediets(prevIngrediants => [...prevIngrediants, newIngredient])
+
+    }
+    setNewIngrediet('')
+    if (ingredientInput.current) {
+      ingredientInput.current.focus();
+    }
   }
 
   const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -39,8 +56,20 @@ const Create = () => {
           />
         </label>
 
-        {/* Ingredients go here! */}
+        <label>
+          <span>Recipe ingredients:</span>
+          <div className="ingredients">
+            <input
+              type="text"
+              onChange={(e) => setNewIngrediet(e.target.value)}
+              value={newIngredient}
+              ref={ingredientInput}
+            />
+            <button className='btn' onClick={handelAdd}>add</button>
 
+          </div>
+        </label>
+        <p>Current ingredients: {ingrediants.map(ingredient => <em key={ingredient}>{ingredient}, </em>)}</p>
         <label>
           <span>Recipe method:</span>
           <textarea
