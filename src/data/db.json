@@ -1,63 +1,491 @@
 {
-  "recipes": [
-    {
-      "id": "1",
-      "title": "Veggie Stew",
-      "ingredients": [
-        "1 Carrot",
-        "1 Leek",
-        "200g Tofu",
-        "300ml Veg stock"
-      ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
-      "cookingTime": "45 minutes"
-    },
-    {
-      "id": "2",
-      "title": "Veggie Pizza",
-      "ingredients": [
-        "1 Base",
-        "Tomata pasata",
-        "1 Green pepper",
-        "100g Mushrooms"
-      ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
-      "cookingTime": "35 minutes"
-    },
-    {
-      "id": "3",
-      "title": "Greek Salad",
-      "ingredients": [
-        "1 Onion",
-        "1 Block of Feta",
-        "Olives",
-        "Tomatoes",
-        "Olive Oil"
-      ],
-      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
-      "cookingTime": "35 minutes"
-    },
-    {
-      "id": "479b",
-      "title": "test",
-      "ingredients": [
-        "test",
-        "test1",
-        "test2"
-      ],
-      "method": "testtest test test",
-      "cookingTime": "45 minutes"
-    },
-    {
-      "id": "d56b",
-      "title": "122123",
-      "ingredients": [
-        "341314",
-        "e31eqe3d",
-        "ergopigjergji"
-      ],
-      "method": "ekjwfkhkfhjehfhkhelhfhofhj",
-      "cookingTime": "35 minutes"
-    }
-  ]
+    "recipes": [
+        {
+            "id": "1",
+            "title": "Veggie Stew",
+            "ingredients": [
+                "1 Carrot",
+                "1 Leek",
+                "200g Tofu",
+                "300ml Veg stock"
+            ],
+            "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice.",
+            "cookingTime": "45 minutes"
+        },
+        {
+            "id": "2",
+            "title": "Veggie Pizza",
+            "ingredients": [
+                "1 Base",
+                "Tomato pasata",
+                "1 Green pepper",
+                "100g Mushrooms"
+            ],
+            "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. 2. Place the pizza in the oven and cook for 30 minutes. 3. Serve hot with a slaw of your choice.",
+            "cookingTime": "35 minutes"
+        },
+        {
+            "id": "3",
+            "title": "Greek Salad",
+            "ingredients": [
+                "1 Onion",
+                "1 Block of Feta",
+                "Olives",
+                "Tomatoes",
+                "Olive Oil"
+            ],
+            "method": "1. Slice the onion and tomatoes. 2. Cut the feta into cubes. 3. Combine all the ingredients in a large bowl. 4. Drizzle with olive oil and toss to combine. 5. Serve chilled.",
+            "cookingTime": "15 minutes"
+        },
+        {
+            "id": "4",
+            "title": "Pasta Primavera",
+            "ingredients": [
+                "200g Pasta",
+                "100g Broccoli",
+                "1 Carrot",
+                "50g Peas",
+                "50g Parmesan"
+            ],
+            "method": "1. Cook the pasta according to the package instructions. 2. In the meantime, steam the broccoli, carrot, and peas until tender. 3. Toss the cooked pasta with the vegetables and top with grated Parmesan. 4. Serve immediately.",
+            "cookingTime": "25 minutes"
+        },
+        {
+            "id": "5",
+            "title": "Tomato Soup",
+            "ingredients": [
+                "4 Tomatoes",
+                "1 Onion",
+                "2 Cloves of Garlic",
+                "500ml Vegetable Broth",
+                "Salt and Pepper"
+            ],
+            "method": "1. Sauté the onion and garlic in a pot until soft. 2. Add the chopped tomatoes and cook for 10 minutes. 3. Add the vegetable broth and bring to a boil. 4. Simmer for 20 minutes. 5. Blend the soup until smooth and season with salt and pepper. 6. Serve hot.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "6",
+            "title": "Quinoa Salad",
+            "ingredients": [
+                "200g Quinoa",
+                "1 Cucumber",
+                "200g Cherry Tomatoes",
+                "1 Red Onion",
+                "Olive Oil",
+                "Lemon Juice"
+            ],
+            "method": "1. Cook quinoa according to package instructions. 2. Dice the cucumber, cherry tomatoes, and red onion. 3. Toss the cooked quinoa with the vegetables. 4. Drizzle with olive oil and lemon juice. 5. Serve chilled.",
+            "cookingTime": "25 minutes"
+        },
+        {
+            "id": "7",
+            "title": "Spaghetti Carbonara",
+            "ingredients": [
+                "200g Spaghetti",
+                "100g Pancetta",
+                "2 Eggs",
+                "50g Parmesan",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Cook the spaghetti according to package instructions. 2. Fry the pancetta until crispy. 3. Beat the eggs and mix with grated Parmesan. 4. Toss the hot spaghetti with the pancetta and egg mixture. 5. Season with salt and pepper. Serve immediately.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "8",
+            "title": "Chicken Stir-Fry",
+            "ingredients": [
+                "200g Chicken Breast",
+                "1 Red Bell Pepper",
+                "1 Green Bell Pepper",
+                "1 Carrot",
+                "Soy Sauce",
+                "Sesame Oil"
+            ],
+            "method": "1. Slice the chicken breast and vegetables. 2. Heat sesame oil in a pan and stir-fry the chicken until cooked. 3. Add the vegetables and stir-fry until tender. 4. Add soy sauce to taste and cook for another 2 minutes. 5. Serve hot.",
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "9",
+            "title": "Mushroom Risotto",
+            "ingredients": [
+                "200g Arborio Rice",
+                "150g Mushrooms",
+                "1 Onion",
+                "2 Cloves of Garlic",
+                "500ml Vegetable Stock",
+                "50g Parmesan"
+            ],
+            "method": "1. Sauté onion and garlic in a pan. 2. Add the Arborio rice and cook for 2 minutes. 3. Add the vegetable stock gradually while stirring. 4. In a separate pan, sauté the mushrooms. 5. When the rice is cooked, stir in the mushrooms and grated Parmesan. Serve hot.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "10",
+            "title": "Beef Tacos",
+            "ingredients": [
+                "200g Ground Beef",
+                "Taco Shells",
+                "1 Tomato",
+                "1 Onion",
+                "Lettuce",
+                "Cheddar Cheese",
+                "Sour Cream"
+            ],
+            "method": "1. Cook the ground beef in a pan until browned. 2. Dice the tomato and onion. 3. Assemble the tacos with beef, vegetables, cheese, and sour cream. Serve immediately.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "11",
+            "title": "Tomato Basil Soup",
+            "ingredients": [
+                "4 Tomatoes",
+                "1 Onion",
+                "2 Cloves of Garlic",
+                "500ml Vegetable Broth",
+                "Fresh Basil",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Sauté the onion and garlic in a pot until soft. 2. Add the chopped tomatoes and cook for 10 minutes. 3. Add the vegetable broth and bring to a boil. 4. Simmer for 20 minutes. 5. Blend the soup until smooth, season with salt and pepper, and garnish with fresh basil. Serve hot.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "12",
+            "title": "Shrimp Scampi",
+            "ingredients": [
+                "200g Shrimp",
+                "200g Spaghetti",
+                "2 Cloves of Garlic",
+                "50ml White Wine",
+                "Lemon Juice",
+                "Parsley"
+            ],
+            "method": "1. Cook the spaghetti according to package instructions. 2. Sauté garlic in a pan with olive oil. 3. Add the shrimp and cook until pink. 4. Add white wine and lemon juice, simmer for 2 minutes. 5. Toss the cooked spaghetti with the shrimp and sauce. Garnish with parsley and serve.",
+            "cookingTime": "25 minutes"
+        },
+        {
+            "id": "13",
+            "title": "Vegetable Curry",
+            "ingredients": [
+                "1 Potato",
+                "1 Carrot",
+                "1 Zucchini",
+                "1 Onion",
+                "Coconut Milk",
+                "Curry Powder",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Dice the vegetables. 2. Sauté the onion in a pot until soft. 3. Add the curry powder and cook for 1 minute. 4. Add the vegetables and coconut milk, simmer until vegetables are tender. 5. Season with salt and pepper. Serve with rice.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "14",
+            "title": "BBQ Chicken Wings",
+            "ingredients": [
+                "500g Chicken Wings",
+                "BBQ Sauce",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Pre-heat the oven to 200C. 2. Season the chicken wings with salt and pepper. 3. Brush with BBQ sauce. 4. Bake in the oven for 30-35 minutes until cooked through. Serve hot.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "15",
+            "title": "Pancakes",
+            "ingredients": [
+                "200g Flour",
+                "2 Eggs",
+                "300ml Milk",
+                "Butter",
+                "Maple Syrup"
+            ],
+            "method": "1. Mix the flour, eggs, and milk to form a smooth batter. 2. Heat a frying pan and melt some butter. 3. Pour a small amount of batter into the pan and cook until bubbles form on the surface. 4. Flip and cook the other side until golden. Serve with maple syrup.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "16",
+            "title": "Caesar Salad",
+            "ingredients": [
+                "1 Romaine Lettuce",
+                "50g Parmesan",
+                "Croutons",
+                "Caesar Dressing",
+                "Chicken Breast (optional)"
+            ],
+            "method": "1. Chop the romaine lettuce. 2. Toss with Caesar dressing and croutons. 3. Grate Parmesan on top. 4. Add sliced grilled chicken breast if desired. Serve immediately.",
+            "cookingTime": "15 minutes"
+        },
+        {
+            "id": "17",
+            "title": "Fish Tacos",
+            "ingredients": [
+                "200g White Fish",
+                "Taco Shells",
+                "Cabbage",
+                "Sour Cream",
+                "Lime",
+                "Cilantro"
+            ],
+            "method": "1. Cook the white fish in a pan until flaky. 2. Shred the cabbage. 3. Assemble the tacos with fish, cabbage, sour cream, lime juice, and cilantro. Serve immediately.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "18",
+            "title": "Lentil Soup",
+            "ingredients": [
+                "200g Red Lentils",
+                "1 Onion",
+                "2 Carrots",
+                "2 Cloves of Garlic",
+                "500ml Vegetable Stock",
+                "Cumin",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Sauté the onion and garlic in a pot until soft. 2. Add the chopped carrots and cook for 5 minutes. 3. Add the lentils, cumin, and vegetable stock. 4. Simmer for 25 minutes until the lentils are tender. Season with salt and pepper. Serve hot.",
+            "cookingTime": "35 minutes"
+        },
+        {
+            "id": "19",
+            "title": "Grilled Cheese Sandwich",
+            "ingredients": [
+                "2 Slices of Bread",
+                "50g Cheddar Cheese",
+                "Butter"
+            ],
+            "method": "1. Butter the bread slices on one side. 2. Place the cheese between the unbuttered sides. 3. Heat a pan and cook the sandwich until golden on both sides and the cheese is melted. Serve hot.",
+            "cookingTime": "10 minutes"
+        },
+        {
+            "id": "20",
+            "title": "Caprese Salad",
+            "ingredients": [
+                "2 Tomatoes",
+                "1 Ball of Mozzarella",
+                "Fresh Basil",
+                "Olive Oil",
+                "Balsamic Glaze"
+            ],
+            "method": "1. Slice the tomatoes and mozzarella. 2. Arrange them on a plate, alternating slices. 3. Garnish with fresh basil leaves, drizzle with olive oil and balsamic glaze. Serve immediately.",
+            "cookingTime": "10 minutes"
+        },
+        {
+            "id": "21",
+            "title": "Chicken Alfredo",
+            "ingredients": [
+                "200g Fettuccine",
+                "200g Chicken Breast",
+                "200ml Heavy Cream",
+                "50g Parmesan",
+                "Garlic",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Cook the fettuccine according to package instructions. 2. In a pan, cook the chicken breast until browned. 3. Add garlic and heavy cream, simmer for 5 minutes. 4. Toss the pasta with the sauce, add grated Parmesan, and serve hot.",
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "22",
+            "title": "Veggie Stir-Fry",
+            "ingredients": [
+                "1 Broccoli",
+                "1 Carrot",
+                "1 Bell Pepper",
+                "Soy Sauce",
+                "Ginger",
+                "Garlic",
+                "Sesame Oil"
+            ],
+            "method": "1. Slice the vegetables. 2. Heat sesame oil in a pan and stir-fry the garlic and ginger. 3. Add the vegetables and stir-fry until tender. 4. Add soy sauce to taste and cook for another 2 minutes. Serve hot.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "23",
+            "title": "Egg Fried Rice",
+            "ingredients": [
+                "200g Cooked Rice",
+                "2 Eggs",
+                "1 Carrot",
+                "1 Peas",
+                "Soy Sauce",
+                "Spring Onions"
+            ],
+            "method": "1. Heat a pan and scramble the eggs. 2. Add the cooked rice, diced carrot, and peas to the pan. 3. Stir-fry with soy sauce. 4. Garnish with chopped spring onions. Serve hot.",
+            "cookingTime": "15 minutes"
+        },
+        {
+            "id": "24",
+            "title": "Beef Stroganoff",
+            "ingredients": [
+                "200g Beef",
+                "100g Mushrooms",
+                "1 Onion",
+                "200ml Sour Cream",
+                "Mustard",
+                "Paprika"
+            ],
+            "method": "1. Sauté the onion in a pan until soft. 2. Add the beef and cook until browned. 3. Add the mushrooms and cook for 5 minutes. 4. Stir in the sour cream, mustard, and paprika. 5. Simmer for 10 minutes. Serve with rice or pasta.",
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "25",
+            "title": "French Toast",
+            "ingredients": [
+                "2 Slices of Bread",
+                "2 Eggs",
+                "100ml Milk",
+                "Cinnamon",
+                "Sugar",
+                "Butter",
+                "Maple Syrup"
+            ],
+            "method": "1. Whisk the eggs, milk, cinnamon, and sugar together. 2. Soak the bread slices in the mixture. 3. Heat a pan and melt some butter. 4. Fry the soaked bread until golden on both sides. Serve with maple syrup.",
+            "cookingTime": "15 minutes"
+        },
+        {
+            "id": "26",
+            "title": "Minestrone Soup",
+            "ingredients": [
+                "1 Carrot",
+                "1 Zucchini",
+                "1 Onion",
+                "1 Can of Tomatoes",
+                "100g Pasta",
+                "1 Can of Beans",
+                "500ml Vegetable Broth"
+            ],
+            "method": "1. Sauté the onion in a pot until soft. 2. Add the diced carrot and zucchini, cook for 5 minutes. 3. Add the canned tomatoes, beans, and vegetable broth. 4. Bring to a boil and add the pasta. 5. Simmer until the pasta is cooked. Serve hot.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "27",
+            "title": "Stuffed Bell Peppers",
+            "ingredients": [
+                "4 Bell Peppers",
+                "200g Ground Beef",
+                "100g Rice",
+                "1 Onion",
+                "Tomato Sauce",
+                "Cheddar Cheese"
+            ],
+            "method": "1. Cook the rice according to package instructions. 2. Sauté the onion and ground beef in a pan. 3. Mix the cooked rice with the beef and tomato sauce. 4. Stuff the bell peppers with the mixture. 5. Top with cheddar cheese and bake at 180C for 25 minutes. Serve hot.",
+            "cookingTime": "45 minutes"
+        },
+        {
+            "id": "28",
+            "title": "Pesto Pasta",
+            "ingredients": [
+                "200g Pasta",
+                "50g Pesto",
+                "Cherry Tomatoes",
+                "Parmesan Cheese",
+                "Pine Nuts"
+            ],
+            "method": "1. Cook the pasta according to package instructions. 2. Toss the cooked pasta with pesto. 3. Add cherry tomatoes and pine nuts. 4. Top with grated Parmesan. Serve immediately.",
+            "cookingTime": "20 minutes"
+        },
+        {
+            "id": "29",
+            "title": "Chicken Quesadilla",
+            "ingredients": [
+                "2 Tortillas",
+                "100g Cooked Chicken",
+                "50g Cheddar Cheese",
+                "1 Bell Pepper",
+                "Sour Cream",
+                "Salsa"
+            ],
+            "method": "1. Heat a pan and place one tortilla in it. 2. Add the cooked chicken, sliced bell pepper, and cheese on top. 3. Cover with the second tortilla and cook until golden on both sides. Serve with sour cream and salsa.",
+            "cookingTime": "15 minutes"
+        },
+        {
+            "id": "30",
+            "title": "Chocolate Brownies",
+            "ingredients": [
+                "200g Dark Chocolate",
+                "100g Butter",
+                "200g Sugar",
+                "3 Eggs",
+                "100g Flour",
+                "Vanilla Extract"
+            ],
+            "method": "1. Pre-heat the oven to 180C. 2. Melt the chocolate and butter together. 3. Stir in the sugar, eggs, and vanilla extract. 4. Fold in the flour. 5. Pour the batter into a baking tin and bake for 25-30 minutes. Serve warm.",
+            "cookingTime": "40 minutes"
+        },
+        {
+            "id": "31",
+            "title": "Vegetable Lasagna",
+            "ingredients": [
+                "200g Lasagna Sheets",
+                "1 Zucchini",
+                "1 Carrot",
+                "1 Onion",
+                "Tomato Sauce",
+                "Ricotta Cheese",
+                "Mozzarella"
+            ],
+            "method": "1. Sauté the onion, zucchini, and carrot in a pan. 2. Layer the lasagna sheets, vegetables, tomato sauce, and ricotta in a baking dish. 3. Top with mozzarella and bake at 180C for 40 minutes. Serve hot.",
+            "cookingTime": "60 minutes"
+        },
+        {
+            "id": "32",
+            "title": "Falafel",
+            "ingredients": [
+                "200g Chickpeas",
+                "1 Onion",
+                "2 Cloves of Garlic",
+                "Cumin",
+                "Coriander",
+                "Flour",
+                "Parsley",
+                "Salt",
+                "Pepper"
+            ],
+            "method": "1. Blend the chickpeas, onion, garlic, and spices in a food processor. 2. Form the mixture into balls and roll in flour. 3. Fry the falafel balls in hot oil until golden. Serve with pita bread and salad.",
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "33",
+            "title": "Banana Bread",
+            "ingredients": [
+                "3 Ripe Bananas",
+                "100g Butter",
+                "200g Sugar",
+                "2 Eggs",
+                "200g Flour",
+                "Baking Soda",
+                "Vanilla Extract"
+            ],
+            "method": "1. Pre-heat the oven to 180C. 2. Mash the bananas in a bowl. 3. Mix in the melted butter, sugar, eggs, and vanilla extract. 4. Stir in the flour and baking soda. 5. Pour the batter into a loaf tin and bake for 60 minutes. Serve warm.",
+            "cookingTime": "75 minutes"
+        },
+        {
+            "id": "34",
+            "title": "Greek Yogurt Parfait",
+            "ingredients": [
+                "200g Greek Yogurt",
+                "Granola",
+                "Honey",
+                "Mixed Berries"
+            ],
+            "method": "1. Layer the Greek yogurt, granola, and mixed berries in a glass. 2. Drizzle with honey. Serve immediately.",
+            "cookingTime": "5 minutes"
+        },
+        {
+            "id": "35",
+            "title": "Spinach and Feta Pie",
+            "ingredients": [
+                "200g Spinach",
+                "100g Feta Cheese",
+                "2 Eggs",
+                "1 Onion",
+                "Puff Pastry",
+                "Nutmeg"
+            ],
+            "method": "1. Pre-heat the oven to 180C. 2. Sauté the onion and spinach in a pan. 3. Mix with crumbled feta, eggs, and nutmeg. 4. Roll out the puff pastry and fill with the spinach mixture. 5. Fold the pastry over and bake for 25-30 minutes. Serve warm.",
+            "cookingTime": "40 minutes"
+        }
+    ]
 }
